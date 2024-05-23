@@ -1,0 +1,21 @@
+{
+  "name": "elastic-bbdda",
+  "version": "1.0.0",
+  "description": "Tarea 3 del curso Bases de Datos Avanzadas en la Universidad Diego Portales",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file .env search.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Angulo",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.13.1",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "oxlint": "^0.3.5"
+  }
+}
